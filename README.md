@@ -71,6 +71,10 @@ document.body.appendChild(wrapper);
 npm install @stegopop/ele
 ```
 
+## Browser Support
+
+This project is transpiled to support back to IE11.
+
 ## In Browser
 
 ```
