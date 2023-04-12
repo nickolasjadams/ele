@@ -67,8 +67,16 @@ document.body.appendChild(wrapper);
 
 ## Install
 
+With NPM
+
 ```
 npm install @stegopop/ele
+```
+
+Or a CDN
+
+```
+<script src="https://cdn.jsdelivr.net/npm/@stegopop/ele"></script>
 ```
 
 ## Browser Support
