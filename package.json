@@ -1,6 +1,6 @@
 {
   "name": "@stegopop/ele",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Element Builder to replace the horrendous native DOM API methods for creating new Elements.",
   "main": "dist/ele.min.js",
   "scripts": {
@@ -15,7 +15,10 @@
     "url": "https://github.com/nickolasjadams/ele"
   },
   "keywords": [
-    "html", "element", "dom manipulation", "vanilla"
+    "html",
+    "element",
+    "dom manipulation",
+    "vanilla"
   ],
   "devDependencies": {
     "@babel/cli": "^7.21.0",
