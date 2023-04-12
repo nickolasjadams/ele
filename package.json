@@ -10,6 +10,13 @@
   },
   "author": "Nick Adams",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickolasjadams/ele"
+  },
+  "keywords": [
+    "html", "element", "dom manipulation", "vanilla"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.4",
