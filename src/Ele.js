@@ -1,3 +1,15 @@
+/**
+ * Ele.js
+ * 
+ * A simple Element Builder to replace the horrendous 
+ * native DOM API methods for creating new Elements.
+ * 
+ * @author Nick Adams
+ * @see {@link https://github.com/nickolasjadams/ele|Repository}
+ * @license MIT
+ * @version 1.0.0
+ */
+
 // Used to determine environment
 var _ele_document, _ele_window;
 if (typeof document != 'undefined') {
@@ -6,16 +18,7 @@ if (typeof document != 'undefined') {
 if (typeof window != 'undefined') {
     _ele_window = window;
 }
-/**
- * Ele.js
- * 
- * A simple Element Builder to replace the horrendous 
- * native DOM API methods for creating new Elements.
- * 
- * @author Nick Adams
- * @license MIT
- * @version 1.0.0
- */
+
 class Ele {
     constructor(options) {
         if (options) {
