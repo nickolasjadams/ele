@@ -1,0 +1,19 @@
+{
+  "name": "@stegopop/ele",
+  "version": "1.0.0",
+  "description": "A simple Element Builder to replace the horrendous native DOM API methods for creating new Elements.",
+  "main": "dist/ele.min.js",
+  "scripts": {
+    "js": "npx babel src/Ele.js --out-file dist/ele.min.js",
+    "watch": "npm run js -- --watch",
+    "serve": "php -S localhost:4040 & open -a 'Google Chrome' http://localhost:4040"
+  },
+  "author": "Nick Adams",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "jsdom": "^21.1.1"
+  }
+}
