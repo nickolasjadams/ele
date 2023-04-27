@@ -7,7 +7,7 @@
  * @author Nick Adams
  * @see {@link https://github.com/nickolasjadams/ele|Repository}
  * @license MIT
- * @version 1.0.6
+ * @version 1.0.7
  */
 
 // Used to determine environment

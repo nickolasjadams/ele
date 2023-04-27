@@ -1,6 +1,6 @@
 # Ele
 
-[![npm version](https://badge.fury.io/js/ele.svg)](//npmjs.com/package/@stegopop/ele)
+[![npm version](https://badge.fury.io/js/@stegopop%2Fele.svg)](https://badge.fury.io/js/@stegopop%2Fele)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A simple Element Builder to replace the horrendous native DOM API methods for creating new Elements.
