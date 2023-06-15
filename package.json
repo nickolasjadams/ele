@@ -1,6 +1,6 @@
 {
   "name": "@stegopop/ele",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "A simple Element Builder to replace the horrendous native DOM API methods for creating new Elements.",
   "main": "dist/ele.min.js",
   "scripts": {
