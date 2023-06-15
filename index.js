@@ -13,7 +13,7 @@ Ele.setDocument(document);
 
 let html = Ele.mint({
     element: "button",
-    class: "hello world",
+    class: "hello world    a",
     id: "dude",
     html: "<strong>asdf</strong>",
     event: [

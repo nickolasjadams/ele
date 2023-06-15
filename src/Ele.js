@@ -7,7 +7,7 @@
  * @author Nick Adams
  * @see {@link https://github.com/nickolasjadams/ele|Repository}
  * @license MIT
- * @version 1.0.7
+ * @version 1.0.8
  */
 
 // Used to determine environment
@@ -51,6 +51,7 @@ class Ele {
             // if it's multiple (whitespace or array)
             if (/\s/g.test(options.class) || Array.isArray(options.class)) {
                 if (!Array.isArray(options.class)) {
+                    options.class = options.class.trim();
                     options.class = options.class.split(/\s/g);
                 }
                 options.class.forEach(s => element.classList.add(s));

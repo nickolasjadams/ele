@@ -1,12 +1,13 @@
 {
   "name": "@stegopop/ele",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A simple Element Builder to replace the horrendous native DOM API methods for creating new Elements.",
   "main": "dist/ele.min.js",
   "scripts": {
     "js": "babel src/Ele.js --out-file dist/ele.js",
     "watch": "npm run js -- --watch",
     "minify": "uglifyjs --compress --comments --output dist/ele.min.js -- dist/ele.js",
+    "prep-release": "npm run js && npm run minify",
     "serve": "php -S localhost:4040 & open -a 'Google Chrome' http://localhost:4040"
   },
   "author": "Nick Adams",
